@@ -1,0 +1,118 @@
+html{
+    scroll-behavior:smooth;
+  }
+  body {
+    font-family: cursive;
+    margin: 0;/*AjustarMargenHeaderEsquinas*/
+  }
+  header{
+  background-color: #000000;/*ColorFondo*/
+  height: 120px;
+  color: white;
+  }
+  .logo{
+    display: flex;
+  }
+  .logo img{
+  height: 120px;
+  justify-content: left;
+  margin-right: 250px;
+  align-items: center;
+  text-align: center;
+  }
+  .accent-color0{
+    color: #F7D917;
+    padding: 0px 80px;
+  }
+  .accent-color1{
+    font-weight: bold;
+    font-size: 22px;
+    color: #F7D917;
+    align-items: center;
+    justify-content: center;
+  }
+  .accent-color2{
+    font-weight: bold;
+    font-size: 22px;
+    color: #F7D917;
+    align-items: center;
+    justify-content: center;
+  }
+  .accent-color3{
+    font-weight: bold;
+    font-size: 22px;
+    color: #F7D917;
+    align-items: center;
+    justify-content: center;
+  }
+  #half{
+    
+    color:white;
+    padding: 20px 50px;
+    background-position: right;
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5))
+    ,url("lupulos.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+  }
+  .footer{
+    
+    position:absolute;
+    padding: 1px 30px;
+    display: flex;
+    flex-wrap:wrap;/*una debajo de otra, para que se adapten*/
+    justify-content: space-between;
+    width: 1482px;
+    margin: auto;
+    height: 170px;
+    background-color:#000000;
+  }
+  .box_footer{
+    display: flex;
+    flex-direction: column;
+  
+  }
+  .box_footer p{
+    font-size: 30px;
+    padding: 50px;
+    color: #F7D917;
+  }
+  .box_footer h2{
+  align-items: center;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #F7D917;
+  }
+  .box_footer a{
+    margin-bottom: 1px;
+    color:#F7D917;
+    list-style: none;
+    border-radius: 1px;
+    text-decoration: none;
+    font-size: 15px;
+    
+  }
+  .box_footer a:hover{
+    color: #3b8132;
+  }
+  .box_footer a .fa-brands{
+    font-size: 20px;
+    color:aqua;
+  }
+  .box_copyright{
+    color: #F7D917;
+    max-width: 1485px;
+    margin: auto;
+    text-align: center;
+    font-size: 15px;
+  }
+  .box_copyright p{
+    margin-top: 1px;
+  }
+  .box_copyright hr{
+    background-color: #F7D917;
+    border: none;
+    height: 2px;
+  }
